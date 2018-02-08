@@ -1,4 +1,4 @@
-package com.mvn1.TestMaven;
+package com.mvn1.testdemo;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
