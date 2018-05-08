@@ -1,27 +1,16 @@
-spring:
-  cloud:
-    config:
-      server:
-        native:
-          search-locations: classpath:/shared
-  profiles:
-     active: native
-  application:
-    name: config-server
-
 server:
   port: 8769
   
   
-  spring:
+spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig
-          searchPaths: respo
-          username:
-          password:
+          uri: https://github.com/sunyitc/diagramdev/tree/master/SC_Master/SC_S_Config_Server_Git/src/main
+          searchPaths: resources
+          username: sunyitc
+          password: git@123
       label: master
   application:
     name: config-server
