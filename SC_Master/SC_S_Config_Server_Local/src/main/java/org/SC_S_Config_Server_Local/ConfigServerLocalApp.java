@@ -10,6 +10,7 @@ public class ConfigServerLocalApp
 {
     public static void main( String[] args )
     {
+        System.out.println( "" );
 		SpringApplication.run(ConfigServerLocalApp.class, args);
     }
 }

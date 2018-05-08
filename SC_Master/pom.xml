@@ -34,6 +34,7 @@
     <module>SC_S_Hystrix-dashboard-Turbine</module>
     <module>SC_S_Zuul</module>
     <module>SC_S_Config_Server_Local</module>
+    <module>SC_S_Config_Server_Git</module>
   </modules>
      
          <dependencyManagement>
