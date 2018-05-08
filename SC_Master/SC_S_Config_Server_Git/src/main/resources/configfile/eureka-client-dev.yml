@@ -6,5 +6,5 @@ eureka:
 server:
   port: 8763
  
-foo: foo version dev 1 devdevdev ddddddddddddddddd
+foo: foo version dev 1 devdevdev dddddddddddddddddgggggggggg
 
