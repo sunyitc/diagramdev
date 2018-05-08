@@ -34,7 +34,7 @@ public class App
     public static void main( String[] args )
     {
     	Abc.test();
-        System.out.println( "Hello World!" );
+        System.out.println( "Hello World!" );        System.out.println( "Hello World!" );
         SpringApplication.run(App.class, args);
     }
     
