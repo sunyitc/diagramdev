@@ -1,0 +1,9 @@
+
+eureka:
+  client:
+    service-url:
+      defaultZone : http://slave1:8761/eureka/
+server:
+  port: 8763
+ 
+foo: foo version pro 1
